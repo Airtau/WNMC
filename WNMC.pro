@@ -21,3 +21,8 @@ SOURCES += main.cpp
 include(qtquick2applicationviewer/qtquick2applicationviewer.pri)
 qtcAddDeployment()
 
+OTHER_FILES += \
+    qml/WNMC/Content/Visualize.qml \
+    qml/images/particle.png \
+    qml/images/flower.png \
+    qml/images/star.png
